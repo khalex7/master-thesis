@@ -1,0 +1,49 @@
+\BOOKMARK [1][-]{section*.1}{Перечень условных обозначений}{}% 1
+\BOOKMARK [1][-]{section*.2}{Введение}{}% 2
+\BOOKMARK [1][-]{section.1}{Цель работы и задачи}{}% 3
+\BOOKMARK [2][-]{subsection.1.1}{Цель работы}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.2}{Требования к работе}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.3}{Задачи}{section.1}% 6
+\BOOKMARK [1][-]{section.2}{Требования к серверным модулям и МУС}{}% 7
+\BOOKMARK [2][-]{subsection.2.1}{Требования к однопроцессорному модулю E8C2-uATX/SE}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.2}{Требования к двухпроцессорному модулю E8C2-EATX}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.3}{Требования к системе питания модулей E8C2-uATX/SE и E8C2-EATX}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.4}{Требования к функционал для наладки модулей E8C2-uATX/SE и E8C2-EATX}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.5}{Требования к модулю управления системой МУС-А}{section.2}% 12
+\BOOKMARK [1][-]{section.3}{Этапы разработки модулей}{}% 13
+\BOOKMARK [1][-]{section.4}{Исследование компонент}{}% 14
+\BOOKMARK [2][-]{subsection.4.1}{Система питания}{section.4}% 15
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Линейные преобразователи напряжения}{subsection.4.1}% 16
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Импульсные однофазные источники}{subsection.4.1}% 17
+\BOOKMARK [1][-]{section.5}{Разработка функциональной и электрической схем}{}% 18
+\BOOKMARK [2][-]{subsection.5.1}{Функциональная схема}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.2}{Электрическая схема}{section.5}% 20
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Разработка типового блока микропроцессора Эльбрус-8С2}{subsection.5.2}% 21
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Разработка системы питания}{subsection.5.2}% 22
+\BOOKMARK [3][-]{subsubsection.5.2.3}{Прочее}{subsection.5.2}% 23
+\BOOKMARK [1][-]{section.6}{Размещение компонентов, трассировка плат, проведение DRC генерирование файлов и создание КД}{}% 24
+\BOOKMARK [2][-]{subsection.6.1}{Размещение компонентов и трассировка плат}{section.6}% 25
+\BOOKMARK [3][-]{subsubsection.6.1.1}{Форм-фактор и структура}{subsection.6.1}% 26
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Процессорный блок}{subsection.6.1}% 27
+\BOOKMARK [3][-]{subsubsection.6.1.3}{Полигоны питания}{subsection.6.1}% 28
+\BOOKMARK [3][-]{subsubsection.6.1.4}{Интерфейсы}{subsection.6.1}% 29
+\BOOKMARK [3][-]{subsubsection.6.1.5}{Точки съема напряжения}{subsection.6.1}% 30
+\BOOKMARK [2][-]{subsection.6.2}{Проведение DRC}{section.6}% 31
+\BOOKMARK [2][-]{subsection.6.3}{Генерирование файлов и создание КД}{section.6}% 32
+\BOOKMARK [1][-]{section.7}{Разработка модуля управления системой}{}% 33
+\BOOKMARK [2][-]{subsection.7.1}{Основные ограничения}{section.7}% 34
+\BOOKMARK [2][-]{subsection.7.2}{Подбор компонентов}{section.7}% 35
+\BOOKMARK [2][-]{subsection.7.3}{Электрическая схема}{section.7}% 36
+\BOOKMARK [2][-]{subsection.7.4}{Размещение и трассировка, проведение DRC, создание КД}{section.7}% 37
+\BOOKMARK [1][-]{section.8}{Программные средства модуля управления}{}% 38
+\BOOKMARK [2][-]{subsection.8.1}{Проект Yocto}{section.8}% 39
+\BOOKMARK [3][-]{subsubsection.8.1.1}{Определения}{subsection.8.1}% 40
+\BOOKMARK [3][-]{subsubsection.8.1.2}{Создание рецепта}{subsection.8.1}% 41
+\BOOKMARK [3][-]{subsubsection.8.1.3}{Программа сборки Bitbake}{subsection.8.1}% 42
+\BOOKMARK [2][-]{subsection.8.2}{Исходный код прошивки}{section.8}% 43
+\BOOKMARK [2][-]{subsection.8.3}{Сборка программных средств}{section.8}% 44
+\BOOKMARK [2][-]{subsection.8.4}{Работа с программными средствами}{section.8}% 45
+\BOOKMARK [1][-]{section.9}{Описание и результаты тестирования. Внедрение}{}% 46
+\BOOKMARK [1][-]{section*.36}{Заключение}{}% 47
+\BOOKMARK [1][-]{section*.37}{Библиографический список}{}% 48
+\BOOKMARK [1][-]{section*.38}{Приложение А}{}% 49

@@ -1,8 +1,5 @@
 %!TEX TS-program = xelatex
 
-% Author: Amet Umerov (admin@amet13.name)
-% https://github.com/Amet13/bachelor-diploma
-
 \documentclass[a4paper,14pt]{extarticle} % 14й шрифт
 \input{inc/preamble} % Подключаем преамбулу
 
@@ -13,26 +10,27 @@
 %\includepdf[pages={1,2}]{task} % Задание на диплом печатается на одном листе с двух сторон
 %помимо ПЗ и задания, в диплом также вкладывается отзыв руководителя и рецензия
 
+
 \tableofcontents % Содержание 
 \clearpage
-
 \input{inc/0-intro} % Введение
-\input{inc/1-pz} % Постановка задачи
-\input{inc/2-literature} % Обзор современных методов и технологий серверной виртуализации
-\input{inc/3-analyze} % Системный анализ виртуальной инфраструктуры
-\input{inc/4-description} % Описание виртуальной инфраструктуры
-\input{inc/5-adminguide} % Руководство администратора
-\input{inc/6-userguide} % Руководство пользователя
-\input{inc/7-testing} % Результаты тестирования
-\input{inc/8-lifesafety} % Безопасность жизнедеятельности
+\input{inc/1-overview} % Обзор современных модулей серверов и стандартов 
+\input{inc/2-tz} % Задачи и требования к модулям на базе микропроцессора «Эльбрус-8С2» для серверов
+\input{inc/3-stages} % Этапы разработки модулей
+\input{inc/4-partresearch} % Исследование компонент
+\input{inc/5-deve3} % Разработка функциональной и электрической схем
+\input{inc/6-devpcb} % Размещение компонент и трассировка плат
+\input{inc/7-devmngr} % Разработка модуля управления
+\input{inc/8-programmes} % Программные средства модуля управления 
+\input{inc/9-testing} % Описание и результаты тестирования. Внедрение
 \input{inc/0-conclusion} % Заключение
 \input{inc/0-bibliography} % Библиографический список
 
 % Приложения
 \input{inc/a-app} % Исходный код скрипта DDoS Deflate
-\input{inc/b-app} % Руководство пользователя
+%\input{inc/b-app} % Руководство пользователя
 
-\includepdf{act} % Акт внедрения
+%\includepdf{act} % Акт внедрения
 
 \end{document}
 %%% Конец документа

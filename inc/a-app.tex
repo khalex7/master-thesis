@@ -1,23 +1,134 @@
-\vspace*{\fill}
-\centering{\uppercase{Приложение}}
-\vspace*{\fill}
 
-\clearpage
-
-\appsection{Приложение А}
-\centering{\uppercase{Исходный код скрипта DDoS Deflate}}
+\appsection{Приложение А} \label{priloz_a}
+\centering{\uppercase{Технические характеристики модулей E8C2-uATX/SE и E8C2-EATX}}
 \vspace{\baselineskip}
 
-\lstinputlisting[numbers=left]{inc/ddos-deflate/ddos.conf}
+\begin{table}[H]
+	\caption{Параметры модуля E8C2-uATX/SE}\label{param_uatx}
+	\begin{tabular}{|p{3cm}|p{6cm}|p{6cm}|}
+		\hline Компонент & Параметр & Значение  \\
+		%\cline{2-5} & 1 & 2 & 3 & 4 & \\
+		\hline \multirow{4}*{Процессор} & Количество микросхем интегральных 1891ВМ12Я ТВГИ.431281.023, шт. & 1  \\
+		\cline{2-3} & Архитектура процессора & Эльбрус-2000 (e2k) \\
+		\cline{2-3} & Динамически потребляемая мощность процессора & 70 Вт \\
+		\cline{2-3} & Канал ввода-вывода & «WLink», 1 канал с процессора, до 6,0 Гбит/с по линии, 16 линий \\
+		\hline Контроллер ввода-вывода & КПИ-2 & 1991ВГ2Я \newline ТВГИ.431291.002 \\
+		
+		\hline Соединители & \multicolumn{2}{|l|}{LAN 10/100/1000 – 3 шт.} \\
+		интерфейсной & \multicolumn{2}{|l|}{USB 2.0 – 2 шт.} \\
+		панели & \multicolumn{2}{|l|}{TIA-232-F (DE-9) – 1 шт.}\\			
+		& \multicolumn{2}{|l|}{VGA (DE-15) – 1 шт.}\\			
+		& \multicolumn{2}{|l|}{LAN 10/100 модуля удаленного управления – 2 шт.}\\
+		
+		\hline Внутренние & \multicolumn{2}{|l|}{Serial ATA 3.0 – 8 шт.} \\
+		соединители & \multicolumn{2}{|l|}{USB 2.0 – 4 шт.} \\
+		& \multicolumn{2}{|l|}{TIA-232-F модуля удаленного управления – 1 шт.}\\			
+		& \multicolumn{2}{|l|}{Соединитель вентиляторов – 5 шт.}\\			
+		& \multicolumn{2}{|l|}{24-pin ATX Power – 1 шт.}\\
+		& \multicolumn{2}{|l|}{8-pin ATX Power – 1 шт.}\\
+		& \multicolumn{2}{|l|}{PCI Express x4 – 1 шт.}\\
+		& \multicolumn{2}{|l|}{PCI Express x16 – 1 шт. или PCI Express x8 – 2 шт.}\\
+		& \multicolumn{2}{|l|}{PCI 32/66 (5 В) – 1 шт.}\\
+		\hline
+	\end{tabular}
+\end{table}
+\begin{table}[H]
+	\begin{tabular}{|p{3cm}|p{6cm}|p{6cm}|}
+		\hline  & Поддерживаемое кол-во слотов памяти & 4  \\
+		\cline{2-3} Оперативная & Тип модуля памяти & RDIMM ECC x4/x8 DDR4 \\
+		\cline{2-3} память & Количество каналов  & 4 \\
+		\cline{2-3} & Напряжение питания памяти & 1,2В \\
+		
+		\hline \multirow{4}*{Графика} & Интерфейс & аналоговый (VGA)  \\
+		\cline{2-3} & Тип коннектора & DE-15 (15-контактный D-Sub) \\
+		\cline{2-3} & Разрешение  & 1920 × 1440 \\
+		\cline{2-3} & Видеопроцессор & SM718GX160000-AB \\
+		
+		
+		\hline Удаленное управление & \multicolumn{2}{|l|}{Допускается установка модулей удаленного управления:
+		} \\
+		\cline{2-3} & \multicolumn{2}{|l|}{МУП-АС, фирмы МЦСТ,}\\
+		\cline{2-3} & \multicolumn{2}{|l|}{ChMM-700R (фирма Pigeon Point), }\\
+		\cline{2-3} & \multicolumn{2}{|l|}{Модуль дистанционного мониторинга и управления }\\
+		& \multicolumn{2}{|l|}{(ООО Фирма «АНКАД»).}\\
+		\cline{2-3} & \multicolumn{2}{|l|}{Поддерживаются функции управления системой }\\
+		& \multicolumn{2}{|l|}{в соответствии со стандартом IPMI 1.5}\\
+		
+		\hline Программное обеспечение & \multicolumn{2}{|l|}{Программа начального старта ЛЯЮИ.00655-01
+		} \\
+		\hline Потребляемая мощность в базовой комплектации изделия, Вт, не более & \multicolumn{2}{|l|}{140
+		} \\
+		\hline Форм-фактор & \multicolumn{2}{|l|}{MicroATX
+		} \\
+		\hline Габаритные размеры, мм & \multicolumn{2}{|l|}{251,2 × 243,8 × 37,5
+		} \\
+		\hline 
+	\end{tabular}
+\end{table}
 
-\lstinputlisting[numbers=left]{inc/ddos-deflate/ddos.sh}
-
-\lstinputlisting[numbers=left]{inc/ddos-deflate/ignore.ip.list}
-
-\lstinputlisting[numbers=left]{inc/ddos-deflate/install.sh}
-
-\lstinputlisting[numbers=left]{inc/ddos-deflate/uninstall.sh}
-
-\lstinputlisting[numbers=left]{inc/ddos-deflate/README.md}
+\begin{table}[H]
+	\caption{Параметры модуля E8C2-EATX}\label{param_eatx}
+	\begin{tabular}{|p{3cm}|p{6cm}|p{6cm}|}
+		\hline Компонент & Параметр & Значение  \\
+		%\cline{2-5} & 1 & 2 & 3 & 4 & \\
+		\hline \multirow{5}*{Процессор} & Количество микросхем интегральных 1891ВМ12Я ТВГИ.431281.023, шт. & 2  \\
+		\cline{2-3} & Архитектура процессора & Эльбрус-2000 (e2k) \\
+		\cline{2-3} & Динамически потребляемая мощность процессора & 70 Вт \\
+		\cline{2-3} & Межпроцессорные связи & «WLink», 1 канал с процессора, до 6,25 Гбит/с по линии, 16 линий \\
+		\cline{2-3} & Канал ввода-вывода & «WLink», 1 канал с процессора, до 6,0 Гбит/с по линии, 16 линий \\
+		\hline Контроллер ввода-вывода & КПИ-2, 2шт. & 1991ВГ2Я \newline ТВГИ.431291.002 \\
+		
+		\hline Соединители & \multicolumn{2}{|l|}{LAN 10/100/1000 – 4 шт.} \\
+		интерфейсной & \multicolumn{2}{|l|}{USB 2.0 – 4 шт.} \\
+		панели & \multicolumn{2}{|l|}{TIA-232-F (DE-9) – 1 шт.}\\			
+		& \multicolumn{2}{|l|}{VGA (DE-15) – 1 шт.}\\			
+		& \multicolumn{2}{|l|}{LAN 10/100 модуля удаленного управления – 2 шт.}\\
+		
+		\hline Внутренние & \multicolumn{2}{|l|}{Serial ATA 3.0 – 16 шт.} \\
+		соединители & \multicolumn{2}{|l|}{USB 2.0 – 4 шт.} \\
+		& \multicolumn{2}{|l|}{TIA-232-F модуля удаленного управления – 1 шт.}\\			
+		& \multicolumn{2}{|l|}{Соединитель вентиляторов – 7 шт.}\\			
+		& \multicolumn{2}{|l|}{24-pin ATX Power – 1 шт.}\\
+		& \multicolumn{2}{|l|}{8-pin ATX Power – 1 шт.}\\
+		& \multicolumn{2}{|l|}{PCI Express x4 – 2 шт.}\\
+		& \multicolumn{2}{|l|}{PCI Express x16 – 2 шт. или PCI Express x8 – 4 шт.}\\
+		& \multicolumn{2}{|l|}{PCI 32/66 (5 В) – 1 шт.}\\
+		& \multicolumn{2}{|l|}{I2C – 1 шт.}\\
+		\hline
+	\end{tabular}
+\end{table}
+\begin{table}[H]
+	\begin{tabular}{|p{3cm}|p{6cm}|p{6cm}|}
+		\hline  & Поддерживаемое кол-во слотов памяти & 8  \\
+		\cline{2-3} Оперативная & Тип модуля памяти & RDIMM ECC x4/x8 DDR4 \\
+		\cline{2-3} память & Количество каналов  & по 4 на процессор \\
+		\cline{2-3} & Напряжение питания памяти & 1,2В \\
+		
+		\hline \multirow{4}*{Графика} & Интерфейс & аналоговый (VGA)  \\
+		\cline{2-3} & Тип коннектора & DE-15 (15-контактный D-Sub) \\
+		\cline{2-3} & Разрешение  & 1920 × 1440 \\
+		\cline{2-3} & Видеопроцессор & SM718GX160000-AB \\
+		
+		
+		\hline Удаленное управление & \multicolumn{2}{|l|}{Допускается установка модулей удаленного управления:
+		} \\
+		\cline{2-3} & \multicolumn{2}{|l|}{МУП-АС, фирмы МЦСТ,}\\
+		\cline{2-3} & \multicolumn{2}{|l|}{ChMM-700R (фирма Pigeon Point), }\\
+		\cline{2-3} & \multicolumn{2}{|l|}{Модуль дистанционного мониторинга и управления }\\
+		& \multicolumn{2}{|l|}{(ООО Фирма «АНКАД»).}\\
+		\cline{2-3} & \multicolumn{2}{|l|}{Поддерживаются функции управления системой }\\
+		& \multicolumn{2}{|l|}{в соответствии со стандартом IPMI 1.5}\\
+		
+		\hline Программное обеспечение & \multicolumn{2}{|l|}{Программа начального старта ЛЯЮИ.00655-01
+		} \\
+		\hline Потребляемая мощность в базовой комплектации изделия, Вт, не более & \multicolumn{2}{|l|}{300
+		} \\
+		\hline Форм-фактор & \multicolumn{2}{|l|}{ExtendedATX
+		} \\
+		\hline Габаритные размеры, мм & \multicolumn{2}{|l|}{330,2 × 304,8 × 37,0
+		} \\
+		\hline 
+	\end{tabular}
+\end{table}
 
 \clearpage
