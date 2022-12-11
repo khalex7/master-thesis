@@ -1,5 +1,6 @@
 ﻿Основано на https://github.com/Amet13/bachelor-diploma
-Диплом магистра 
+Диплом магистра МФТИ.
+Master's degree thesis
 
 Особенности
 -----------
